@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+$primary-font: 'Abril Fatface', cursive;
+$secondary-font: 'Poppins', sans-serif;
+
+$primary-color: #006414;
+$secondary-color: #009929;
+$third-color:#5CCB5F;
+$dark-color: #111111;
+$light-color: #fff;
+$gray-color: #413E40;
+$text-color: #111111;
+
+$spacing-sm: 8px;
+$spacing-md: 12px;
+$spacing-lg: 32px;
+
+$header-height: 72px;
+
+$sm: 37.5em;
+$md: 48em;
+$lg: 64em;
+$xl: 75em;
+
+@mixin breakpoint($point) {
+    @if $point == md {
+        @media (min-width: $md) {
+            @content;
+        }
+    }
+}

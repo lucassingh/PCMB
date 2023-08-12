@@ -1,0 +1,57 @@
+@import '../styles/variables.scss';
+
+.section-about {
+    height: auto; 
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+
+    .title-about- {
+        font-size: 30px;
+        font-weight: bolder;
+        color: $secondary-color;
+        letter-spacing: 5px;
+        font-family: $primary-font;
+    }
+    .text {
+        color: $dark-color;
+        font-size: 15px;
+        line-height: 17px;
+        font-family: $secondary-font;
+    }
+    .text-a {
+        color: $dark-color;
+        font-size: 15px;
+        line-height: 17px;
+        text-align: start;
+        font-family: $secondary-font;
+    }
+    .info {
+        color: $secondary-color;
+        font-size: 25px;
+        line-height: 40px;
+        font-family: $secondary-font;
+    }
+    .le {
+        margin-left: 15px;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .section-about {
+        .title-about- {
+            font-size: 60px;
+        }
+        .text {
+            font-size: 22px;
+            line-height: 37px;
+        }
+
+        .text-a {
+            font-size: 22px;
+            line-height: 37px;
+            text-align: end;
+        }
+    }
+}

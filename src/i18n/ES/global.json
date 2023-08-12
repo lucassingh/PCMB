@@ -1,0 +1,63 @@
+{
+    "header": {
+        "link1":"Inicio",
+        "link2":"Nosotros",
+        "link3": "Currícula",
+        "link4": "Sedes"
+    },
+    "hero": {
+        "title":"Programa de Capacitación Misionera Básica "
+    },
+    "enum1": {
+        "option1":"Expresión",
+        "option2":"Experiencia",
+        "option3":"Integración",
+        "option4":"Trascendencia"
+    },
+    "about": {
+        "title": "Nuestra Historia",
+        "text": "El PCMB surge de la necesidad de capacitar a los ya movilizados en la conciencia misionera, que resultan de las relaciones através de varios encuentros, jornadas, y sobre todo visitas a iglesias locales. Apunta a la capacitación de la iglesia local donde se encuentre, en su ciudad o zona, siendo ésta anfitriona y promotora de la visión, invitando a otros a participar."
+    },
+    "aboutHistory": {
+        "title": "Cronología",
+        "text": "Nacimos en 2006 Desde la Red Misiones Mundiales / COMIBAM Argentina creando el Programa de Capacitación Misionera Básica (PCMB), que viene desarrollándose hace diecisiete años como respuesta a inquietudes e intereses que las iglesias manifestaban en el tema misiones. A lo largo de todos estos años, además de abrir nuevas sedes, se han agregado nuevos años a sedes ya existentes permitiendo llegar a más personas."
+    },
+    "proposal": {
+        "text1":"El PCMB es un programa de estudios de dos años, con una sólida base misionera, integrado con proyectos de viajes de corto plazo, buscando relacionar el conocimiento y la experiencia.",
+        "text2":"Es una herramienta eficaz para el crecimiento y desarrollo integral de los miembros de la iglesia local, en la capacitación",
+        "text3":"misionera y aprender a movilizar a la iglesia hacia las misiones."
+    },
+    "who":{
+        "title": "Objetivos del PCMB",
+        "text1": "Concientizar y movilizar a la iglesia local en la visión misionera mundial.",
+        "text2": "Impartir visión de Reino, equipando a hombres y mujeres que aman la gran Comisión, con temas relevantes a la acción misionera.",
+        "text3": "Despertar vocación misionera integral, promoviendo la urgencia de llevar el Mensaje a los Pueblos No Alcanzados.",
+        "text4": "Capacitar en temas de la misión, desarrollando el carácter y estilo de vida como discípulos que comunican una verdad espiritual y eterna.",
+        "text5": "Dar a conocer la realidad actual del mundo, informando sobre la situación mundial y los desafíos de la globalización.",
+        "text6": "Animar y desafiar a la iglesia en el cumplimiento de la Gran Comisión."
+    },
+    "projects": {
+        "option1":"A.I.",
+        "option2":"REALIDAD",
+        "option2a":"VIRTUAL",
+        "option3":"TECNOLOGIÁS",
+        "option3a":"ALTERNATIVAS",
+        "option4": "REALIDAD",
+        "option4a": "AUMENTADA",
+        "option5":"TECNOLOGÍA DE",
+        "option5a": "FRECUENCIAS",
+        "option5c":"Y VIBRACIONES",
+        "option6":"HOLOGRAMAS"
+    },
+    "arborist":{
+        "title": "Qué es The Arborist?",
+        "text1": "Guiado por los cuatro valores expresados como nuestros Principios,",
+        "text2": "The Arborists",
+        "text3": "es un proyecto de la",
+        "text4": "Fundación Amplitud",
+        "text5": "cuyo objetivo principal es colaborar en la creación de conceptos artísticos para un mayor desarrollo de las capacidades humanas desde un punto de vista armónico y educativo."
+    },
+    "contact":{
+        "text":"CONTACTO"
+    }
+}
