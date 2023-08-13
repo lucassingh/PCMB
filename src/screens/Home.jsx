@@ -26,7 +26,7 @@ const Home = () => {
 
                         <MobileView>
                             <span className='subtitle-regular'>{t('hero.title')}</span>
-                            <button style={{ background: '#5CCB5F', color: '#111', fontWeight: 'bold', marginTop:30, padding: '15px', width:200, border: '1px solid #5CCB5F', cursor: 'pointer', borderRadius: '8px' }}>
+                            <button style={{ background: '#009929', color: '#fff', fontWeight: 'bold', marginTop:30, padding: '15px', width:200, border: '1px solid #009929', cursor: 'pointer', borderRadius: '8px' }}>
                                 <Link to='contact' spy={true} smooth={true} duration={1000} >Ver Más</Link>
                             </button>
                         </MobileView>

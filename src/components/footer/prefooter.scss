@@ -1,23 +1,23 @@
 @import '../../styles/variables.scss';
 
 .section-prefooter {
-    background-color: $dark-color;
+    background-color: $secondary-color;
     .cont-address {
         display: flex;
         align-items: center;
         .cont-text {
             padding: 50px;
-            border: 2px solid white;
+            border: 2px solid $light-color;
             width: 100%;
             margin-top: 30px;
             .title {
                 font-weight: bold;
                 font-size: 30px;
-                color: white;
+                color: $light-color;
             }
             .text {
                 font-size: 22px;
-                color: white;
+                color: $light-color;
             }
         }
     }

@@ -2,16 +2,16 @@
 
 .footer-section {
     width: 100%;
-    background-color: $secondary-color;
+    background-color: $dark-color;
     padding: 1.2rem;
-    border-bottom: 1px solid $secondary-color;
+    border-bottom: 1px solid $dark-color;
     display: flex;
     justify-content: center;
     align-items: center;
 
     span {
         font-weight: bold;
-        color: white;
-        font-size: 15px;
+        color: $light-color;
+        font-size: 12px;
     }
 }

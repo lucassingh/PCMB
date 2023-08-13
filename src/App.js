@@ -1,41 +1,50 @@
 import Navbar from './components/navbar/Navbar';
-import Footer from './components/footer/Footer';
-import Prefooter from './components/footer/Prefooter';
 import Home from './screens/Home';
+import WhatIs from './screens/WhatIs';
+import History from './screens/History';
+import Cronology from './screens/Cronology';
+import Objetives from './screens/Objetives';
+import StudyPlan from './screens/StudyPlan';
+import Subjects from './screens/Subjects';
+import Host from './screens/Host';
 // eslint-disable-next-line
 import Items from './components/items/Items';
-import About from './screens/About';
 // eslint-disable-next-line
 import Book from './screens/Book';
 // eslint-disable-next-line
-import Documentary from './screens/Documentary';
+import Documentary from './screens/Cronology';
 // eslint-disable-next-line
 import Evolution from './screens/Evolution';
 // eslint-disable-next-line
-import Exibition from './screens/Exibition';
+import Exibition from './screens/History';
 // eslint-disable-next-line
 import Offer from './screens/Offer';
-import Proposal from './screens/Proposal';
 // eslint-disable-next-line
 import Tour from './screens/Tour';
-import Who from './screens/Who';
-import AboutHistory from './screens/HistoryAbout';
+import Prefooter from './components/footer/Prefooter';
+import Footer from './components/footer/Footer';
+import Locations from './screens/Locations';
 
 function App() {
     return (
         <>
             <Navbar />
             <Home />
-            <Proposal />
-            <About />
-            <AboutHistory />
-            <Who />
+            <WhatIs />
+            <History />
+            <Cronology />
+            <Objetives />
+            <StudyPlan />
+            <Subjects />
+            <Host />
+            <Items />
+            <Locations />
             {/* <Tour />
             <Evolution />
             <Exibition />
             <Documentary />
             <Book />
-            <Items />
+            
             <Proposal />
             <Offer /> */}
             <Prefooter /> 

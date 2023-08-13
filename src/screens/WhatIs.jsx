@@ -1,9 +1,9 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap';
-import '../styles/proposal.scss';
+import '../styles/whatis.scss';
 import { useTranslation } from 'react-i18next';
 
-const Proposal = () => {
+const WhatIs = () => {
 
     const { t } = useTranslation("global");
 
@@ -29,4 +29,4 @@ const Proposal = () => {
     )
 }
 
-export default Proposal
+export default WhatIs

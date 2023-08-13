@@ -27,6 +27,68 @@
         "text2":"Es una herramienta eficaz para el crecimiento y desarrollo integral de los miembros de la iglesia local, en la capacitación",
         "text3":"misionera y aprender a movilizar a la iglesia hacia las misiones."
     },
+    "study": {
+        "title": "Metodología",
+        "text":"El programa incluye la realización de actividades en clase y extra-clase, tales como lecturas anticipadas, búsqueda de información, realización de tareas (individuales y grupales), entrega de trabajos prácticos aplicando los conocimientos a la experiencia. Con cada materia se entregará material de apoyo. El PCMB no es un instituto bíblico ni seminario teológico y no compite con tales instituciones. El programa brinda capacitación vocacional para la misión. El programa completo comprende tres ejes principales: Bíblico (Panorama bíblico orientado hacia las misiones), Misionológico (con materias enfocadas en el quehacer misionero), y Práctico (con énfasis en la experiencia a corto y largo plazo).",
+        "title2":"Plan de estudios"
+    },
+    "tabs": {
+        "title1":"Eje Bíblico",
+        "title2": "Eje Misionológico",
+        "title3": "Eje Práctico",
+        "sub11":"Bases Bíblicas de las Misiones",
+        "sub12":"Las Misiones en el Antiguo Testamento",
+        "sub13":"Las Misiones en el Nuevo Testamento",
+        "sub14":"Iglesia y Misión",
+        "sub15":"Traducción Bíblica",
+        "sub16":"Paradigmas Bíblicos en la Misión",
+        "sub21":"Mayordomía de Reino",
+        "sub22":"Transformación de la Iglesia",
+        "sub23":"Movilización Misionera",
+        "sub24":"Contextualización del Evangelio",
+        "sub25":"Mostrando la Gloria de Dios",
+        "sub26":"El Camino Misionero",
+        "sub27":"Impactando la Eternidad",
+        "sub28":"Panorama Mundial",
+        "sub29":"Vida del Misionero Antes de Salir",
+        "sub210":"Historia de las Misiones",
+        "sub211":"Bloques religiosos",
+        "sub212":"Panorama geopolítico y misión",
+        "sub213":"Antropología Cultural",
+        "sub214":"Occidentalización del Islam",
+        "sub215":"Cultura y Misión",
+        "sub216":"Salud Mental y Crisis",
+        "sub217":"La Mujer y el Islam",
+        "sub218":"Misión Urbana",
+        "sub219":"Religiones Comparadas",
+        "sub220":"Las Misiones Domésticas",
+        "sub221":"Evaluación de una Iglesia Misionera",
+        "sub222":"Viviendo en un contexto musulmán",
+        "sub223":"Una imagen global de la misión",
+        "sub224":"Liderazgo y misión",
+        "sub31":"Plan alcance una Etnia",
+        "sub32":"La Urgencia de los Biocupacionales",
+        "sub33":"Plantación de Iglesias",
+        "sub34":"Deportes, un puente entre la iglesia y el mundo",
+        "sub35":"Adoración y Misiones",
+        "sub36":"Salud Integral",
+        "sub37":"Finanzas en las misiones",
+        "sub38":"La iglesia perseguida",
+        "sub39":"Experiencia en comunidades indígenas",
+        "sub310":"Construyendo equipos para la misión",
+        "sub311":"Deportes sin fronteras",
+        "sub312":"Cuidado Integral del Misionero",
+        "sub313":"Dinámicas Creativas de Intercesión",
+        "sub314":"El Niño y las Misiones",
+        "sub315":"Misión integral",
+        "sub316":"Cómo ayudar a personas en crisis",
+        "sub317":"Niñez y adolescencia en la visión de Dios ",
+        "sub318":"La familia en misiones"
+    },
+    "host": {
+        "title": "Iglesia Anfitriona",
+        "text": "Como antes mencionamos, la iglesia local juega un rol fundamental en la extension y propagación de la visión misionera, por eso necesitamos que se abran mas iglesias anfitrionas en diferentes localidades. Podés descargar los requisitos para ser iglesia anfitriona y completar el formulario de inscripcion online aqui."
+    },
     "who":{
         "title": "Objetivos del PCMB",
         "text1": "Concientizar y movilizar a la iglesia local en la visión misionera mundial.",
@@ -36,18 +98,21 @@
         "text5": "Dar a conocer la realidad actual del mundo, informando sobre la situación mundial y los desafíos de la globalización.",
         "text6": "Animar y desafiar a la iglesia en el cumplimiento de la Gran Comisión."
     },
-    "projects": {
-        "option1":"A.I.",
-        "option2":"REALIDAD",
-        "option2a":"VIRTUAL",
-        "option3":"TECNOLOGIÁS",
-        "option3a":"ALTERNATIVAS",
-        "option4": "REALIDAD",
-        "option4a": "AUMENTADA",
-        "option5":"TECNOLOGÍA DE",
-        "option5a": "FRECUENCIAS",
-        "option5c":"Y VIBRACIONES",
-        "option6":"HOLOGRAMAS"
+    "items": {
+        "option1":"CONCIENTIZAR",
+        "option2":"VISIÓN DE",
+        "option2a":"REINO",
+        "option3":"VOCACIÓN",
+        "option3a":"MISIONERA",
+        "option4": "CAPACITACIÓN",
+        "option4a": "DE DISCIPULOS",
+        "option5":"GLOBALIZACIÓN",
+        "option5a": "MUNDIAL",
+        "option6":"GRAN",
+        "option6a":"COMISIÓN"
+    },
+    "locations":{
+        "title": "Sedes actuales"
     },
     "arborist":{
         "title": "Qué es The Arborist?",
@@ -58,6 +123,7 @@
         "text5": "cuyo objetivo principal es colaborar en la creación de conceptos artísticos para un mayor desarrollo de las capacidades humanas desde un punto de vista armónico y educativo."
     },
     "contact":{
-        "text":"CONTACTO"
+        "text":"CONTACTO",
+        "text2": "Todos los derechos reservados"
     }
 }

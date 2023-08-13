@@ -1,10 +1,10 @@
 import React from 'react'
-import '../styles/who.scss';
+import '../styles/objetives.scss';
 import { Col, Row, Image } from 'react-bootstrap'
 import icon from '../assets/icon.png'
 import { useTranslation } from 'react-i18next';
 
-const Who = () => {
+const Objetives = () => {
 
     const { t } = useTranslation("global");
 
@@ -86,4 +86,4 @@ const Who = () => {
     )
 }
 
-export default Who
+export default Objetives
