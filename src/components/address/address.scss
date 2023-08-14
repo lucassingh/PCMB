@@ -1,0 +1,29 @@
+.cont-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .label {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    
+    .text {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 420px) {
+    .cont-row {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .label {
+            margin-right: 10px;
+            font-size: 18px;
+        }
+        
+        .text {
+            font-size: 20px;
+        }
+    }
+}

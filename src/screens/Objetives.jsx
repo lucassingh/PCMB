@@ -1,5 +1,5 @@
 import React from 'react'
-import '../styles/objetives.scss';
+import '../styles/objetives.scss'
 import { Col, Row, Image } from 'react-bootstrap'
 import icon from '../assets/icon.png'
 import { useTranslation } from 'react-i18next';
@@ -9,7 +9,7 @@ const Objetives = () => {
     const { t } = useTranslation("global");
 
     return (
-        <section className='who-section'>
+        <section id='objetivos' className='who-section'>
             <div className='bg'></div>
             <div className='container'>
                 <Row>

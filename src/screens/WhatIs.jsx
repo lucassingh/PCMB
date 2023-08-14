@@ -8,7 +8,7 @@ const WhatIs = () => {
     const { t } = useTranslation("global");
 
     return (
-        <section className='section-proposal text-center'>
+        <section id='what' className='section-proposal text-center'>
             <div className='container pt-5 pb-5'>
                 <Row>
                     <Col md={12}>

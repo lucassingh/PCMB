@@ -2,8 +2,10 @@
     "header": {
         "link1":"Inicio",
         "link2":"Nosotros",
-        "link3": "Currícula",
-        "link4": "Sedes"
+        "link3": "Objetivos",
+        "link4": "Programa",
+        "link5": "Ser Anfitrion",
+        "link6": "Inscripción"
     },
     "hero": {
         "title":"Programa de Capacitación Misionera Básica "

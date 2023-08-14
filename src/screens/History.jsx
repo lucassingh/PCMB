@@ -9,7 +9,7 @@ const History = () => {
     const { t } = useTranslation("global");
 
     return (
-        <section className='section-'>
+        <section id='history' className='section-'>
             <div className='container mt-4'>
                 <Row>
                     <Col md={6} className='d-md-flex justify-content-md-center align-items-md-start flex-md-column'>

@@ -10,7 +10,7 @@ const StudyPlan = () => {
 
     return (
         <section className='section-'>
-            <div className='container mt-4'>
+            <div className='container mt-5 mb-5'>
                 <Row>
                     <Col md={6} className='d-md-flex justify-content-md-center align-items-md-start flex-md-column'>
                         <h2 className='title-about- mb-3'>{t('study.title')}</h2>

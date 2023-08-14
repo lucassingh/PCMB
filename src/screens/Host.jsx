@@ -10,8 +10,8 @@ const Host = () => {
     const { t } = useTranslation("global");
 
     return (
-        <section className='section-'>
-            <div className='container pt-4 pb-5'>
+        <section id='host' className='section-'>
+            <div className='container pt-3 pb-5'>
                 <Row className="flex-column-reverse flex-md-row">
                     <Col md={6} className='mt-5 d-md-flex justify-content-md-start align-items-md-start text-center'>
                         <Image src={img} width='80%' />

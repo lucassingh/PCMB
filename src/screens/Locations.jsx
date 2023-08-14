@@ -3,6 +3,9 @@ import { Col, Row } from 'react-bootstrap';
 import { useTranslation } from 'react-i18next';
 import '../styles/section.scss';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import img from '../assets/map.png'
+import AddressLocation from '../components/address/AddressLocation';
+
 const Locations = () => {
 
     const { t } = useTranslation("global");
@@ -12,78 +15,141 @@ const Locations = () => {
             <div className='container mt-5 mb-5'>
                 <Row>
                     <Col md={12} className=''>
-                        <h3 className='title-about- mb-3'>{t('locations.title')}</h3>
+                        <h3 className='title-about-'>{t('locations.title')}</h3>
                     </Col>
-                    <Col md={12} className='mt-5'>
+                    <Col md={12} className='mt-4'>
                         <Tabs forceRenderTabPanel defaultIndex={1}>
                             <TabList>
                                 <Tab>Buenos Aires</Tab>
+                                <Tab>CABA</Tab>
                                 <Tab>Santa Fe</Tab>
-                                <Tab>Córdoba</Tab>
+                                <Tab>Chaco</Tab>
+                                <Tab>Neuqen</Tab>
+                                <Tab>La Pampa</Tab>
+                                <Tab>Mendoza</Tab>
+                                <Tab>Chubut</Tab>
                             </TabList>
                             <TabPanel>
                                 <Tabs forceRenderTabPanel>
                                     <TabList>
-                                        <Tab>Homer Simpson</Tab>
-                                        <Tab>Marge Simpson</Tab>
-                                        <Tab>Bart Simpson</Tab>
-                                        <Tab>Lisa Simpson</Tab>
-                                        <Tab>Maggie Simpson</Tab>
+                                        <Tab>Lugano</Tab>
+                                        <Tab>La Plata</Tab>
+                                        <Tab>Longchamps</Tab>
+                                        <Tab>Mar del Plata</Tab>
+                                        <Tab>Bahía Blanca</Tab>
+                                        <Tab>Tandil</Tab>
+                                        <Tab>Punta Alta</Tab>
+                                        <Tab>Lanús</Tab>
+                                        <Tab>Campana</Tab>
+                                        <Tab>Gonzalez Catan</Tab>
                                     </TabList>
                                     <TabPanel>
-                                        <p>Husband of Marge; father of Bart, Lisa, and Maggie.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/02/Homer_Simpson_2006.png/212px-Homer_Simpson_2006.png" alt="Homer Simpson" />
+                                        <AddressLocation direccion="Rivadvia 890" nombre="Carlos Rodriguez" email="crodriguez@pcmb.com" telefono="+54925665458" img={img} />
                                     </TabPanel>
                                     <TabPanel>
-                                        <p>Wife of Homer; mother of Bart, Lisa, and Maggie.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/Marge_Simpson.png/220px-Marge_Simpson.png" alt="Marge Simpson" />
+                                        <AddressLocation direccion="Calle Libertad 456" nombre="Juan López" email="juan.lopez@example.com" telefono="+54998765432" img={img} />
                                     </TabPanel>
                                     <TabPanel>
-                                        <p>Oldest child and only son of Homer and Marge; brother of Lisa and Maggie.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/a/aa/Bart_Simpson_200px.png" alt="Bart Simpson" />
+                                        <AddressLocation direccion="Carrera 789" nombre="María González" email="maria.gonzalez@example.com" telefono="+54955555555" img={img} />
                                     </TabPanel>
                                     <TabPanel>
-                                        <p>Middle child and eldest daughter of Homer and Marge; sister of Bart and Maggie.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/ec/Lisa_Simpson.png/200px-Lisa_Simpson.png" alt="Lisa Simpson" />
+                                        <AddressLocation direccion="Calle 25 de Mayo 987" nombre="Luis Rodríguez" email="luis.rodriguez@example.com" telefono="+54933333333" img={img} />
                                     </TabPanel>
                                     <TabPanel>
-                                        <p>Youngest child and daughter of Homer and Marge; sister of Bart and Lisa.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/9/9d/Maggie_Simpson.png/223px-Maggie_Simpson.png" alt="Maggie Simpson" />
+                                        <AddressLocation direccion="Avenida Rivadavia 4567" nombre="Elena García" email="elena.garcia@example.com" telefono="+54977777777" img={img} />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Calle San Martín 543" nombre="Carlos Fernández" email="carlos.fernandez@example.com" telefono="+54988888888" img={img} />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Avenida Belgrano 789" nombre="Laura Pérez" email="laura.perez@example.com" telefono="+54966666666" img={img} />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Calle Corrientes 1234" nombre="Javier Ramírez" email="javier.ramirez@example.com" telefono="+54922222222" img={img} />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Avenida Pueyrredón 567" nombre="Marta Silva" email="marta.silva@example.com" telefono="+54911111111" img={img} />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Calle Florida 890" nombre="Andrés Martín" email="andres.martin@example.com" telefono="+54999999999" img={img} />
                                     </TabPanel>
                                 </Tabs>
                             </TabPanel>
                             <TabPanel>
                                 <Tabs forceRenderTabPanel>
                                     <TabList>
-                                        <Tab>Philip J. Fry</Tab>
-                                        <Tab>Turanga Leela</Tab>
-                                        <Tab>Bender Bending Rodriguez</Tab>
-                                        <Tab>Amy Wong</Tab>
-                                        <Tab>Professor Hubert J. Farnsworth</Tab>
-                                        <Tab>Doctor John Zoidberg</Tab>
+                                        <Tab>Caballito</Tab>
                                     </TabList>
                                     <TabPanel>
-                                        <p>Protagonist, from the 20th Century. Delivery boy. Many times great-uncle to Professor Hubert Farnsworth. Suitor of Leela.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/2/28/Philip_Fry.png/175px-Philip_Fry.png" alt="Philip J. Fry" />
+                                        <AddressLocation direccion="Avenida Santa Fe 4321" nombre="Carolina López" email="carolina.lopez@example.com" telefono="+54944444444" img={img} />
+                                    </TabPanel>
+                                </Tabs>
+                            </TabPanel>
+                            <TabPanel>
+                                <Tabs forceRenderTabPanel>
+                                    <TabList>
+                                        <Tab>Rosario</Tab>
+                                        <Tab>Venado Tuerto</Tab>
+                                    </TabList>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Calle Lavalle 654" nombre="Diego González" email="diego.gonzalez@example.com" telefono="+54977777777" img={img} />
                                     </TabPanel>
                                     <TabPanel>
-                                        <p>Mutant cyclops. Captain of the Planet Express Ship. Love interest of Fry.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Turanga_Leela.png/150px-Turanga_Leela.png" alt="Turanga Leela" />
+                                        <AddressLocation direccion="Avenida Callao 987" nombre="Florencia Fernández" email="florencia.fernandez@example.com" telefono="+54988888888" img={img} />
+                                    </TabPanel>
+                                </Tabs>
+                            </TabPanel>
+                            <TabPanel>
+                                <Tabs forceRenderTabPanel>
+                                    <TabList>
+                                        <Tab>Resistencia</Tab>
+                                        <Tab>Saenz Peña</Tab>
+                                    </TabList>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Calle Reconquista 321" nombre="Gustavo Pérez" email="gustavo.perez@example.com" telefono="+54966666666" img={img} />
                                     </TabPanel>
                                     <TabPanel>
-                                        <p>A kleptomaniacal, lazy, cigar-smoking, heavy-drinking robot who is Fry's best friend. Built in Tijuana, Mexico, he is the Planet Express Ship's cook.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Bender_Rodriguez.png/220px-Bender_Rodriguez.png" alt="Bender Bending Rodriguez" />
+                                        <AddressLocation direccion="Avenida Córdoba 765" nombre="Inés Ramírez" email="ines.ramirez@example.com" telefono="+54922222222" img={img} />
                                     </TabPanel>
+                                </Tabs>
+                            </TabPanel>
+                            <TabPanel>
+                                <Tabs forceRenderTabPanel>
+                                    <TabList>
+                                        <Tab>Neuqen</Tab>
+                                    </TabList>
                                     <TabPanel>
-                                        <p>Chinese-Martian intern at Planet Express. Fonfon Ru of Kif Kroker.</p>
+                                        <AddressLocation direccion="Calle Sarmiento 234" nombre="Jorge Silva" email="jorge.silva@example.com" telefono="+54911111111" img={img} />
                                     </TabPanel>
+                                </Tabs>
+                            </TabPanel>
+                            <TabPanel>
+                                <Tabs forceRenderTabPanel>
+                                    <TabList>
+                                        <Tab>La Pampa</Tab>
+                                    </TabList>
                                     <TabPanel>
-                                        <p>Many times great-nephew of Fry. CEO and owner of Planet Express delivery company. Tenured professor of Mars University.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0f/FuturamaProfessorFarnsworth.png/175px-FuturamaProfessorFarnsworth.png" alt="Professor Hubert J. Farnsworth" />
+                                        <AddressLocation direccion="Avenida 9 de Julio 543" nombre="Karina Martínez" email="karina.martinez@example.com" telefono="+54999999999" img={img} />
                                     </TabPanel>
+                                </Tabs>
+                            </TabPanel>
+                            <TabPanel>
+                                <Tabs forceRenderTabPanel>
+                                    <TabList>
+                                        <Tab>Mendoza</Tab>
+                                    </TabList>
                                     <TabPanel>
-                                        <p>Alien from Decapod 10. Planet Express' staff doctor and steward. Has a medical degree and Ph.D in art history.</p>
-                                        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4a/Dr_John_Zoidberg.png/200px-Dr_John_Zoidberg.png" alt="Doctor John Zoidberg" />
+                                        <AddressLocation direccion="Calle Esmeralda 876" nombre="Lorenzo López" email="lorenzo.lopez@example.com" telefono="+54944444444" img={img} />
+                                    </TabPanel>
+                                </Tabs>
+                            </TabPanel>
+                            <TabPanel>
+                                <Tabs forceRenderTabPanel>
+                                    <TabList>
+                                        <Tab>Comodoro Rivadavia</Tab>
+                                    </TabList>
+                                    <TabPanel>
+                                        <AddressLocation direccion="Avenida Juan B. Justo 123" nombre="Marina González" email="marina.gonzalez@example.com" telefono="+54977777777" img={img} />
                                     </TabPanel>
                                 </Tabs>
                             </TabPanel>
