@@ -20,7 +20,7 @@ const Navbar = () => {
         <div className={styles.navbar}>
             <Container>
                 <div className={styles.navbar__content}>
-                    <Link to='inicio' className={styles.logo} spy={true} smooth={true} duration={500}>
+                    <Link style={{cursor:'pointer'}} to='inicio' className={styles.logo} spy={true} smooth={true} duration={500}>
                         <img src={logo} alt="brand" width='80%' />
                     </Link>
                     <div>

@@ -3,7 +3,6 @@ import { Col, Row, Image } from 'react-bootstrap';
 import img from '../assets/img-2a.jpg'
 import { useTranslation } from 'react-i18next';
 import '../styles/section.scss';
-import { Link } from 'react-scroll';
 
 const Host = () => {
 
@@ -22,12 +21,43 @@ const Host = () => {
                             {t('host.text')}
                         </span>
                         <div className='d-flex'>
-                            <button style={{ background: '#fff', color: '#009929', fontWeight: 'bold', marginTop: 30, padding: '15px', width: 200, border: '1px solid #009929', cursor: 'pointer', borderRadius: '8px', marginRight:20 }}>
-                                <Link to='contact' spy={true} smooth={true} duration={1000} >Requisitos</Link>
-                            </button>
-                            <button style={{ background: '#009929', color: '#fff', fontWeight: 'bold', marginTop: 30, padding: '15px', width: 200, border: '1px solid #009929', cursor: 'pointer', borderRadius: '8px' }}>
-                                <Link to='contact' spy={true} smooth={true} duration={1000} >Inscripción</Link>
-                            </button>
+                            <a style={{ 
+                                background: '#fff', 
+                                textAlign: 'center', 
+                                color: '#009929', 
+                                fontWeight: 'bold', 
+                                marginTop: 30, 
+                                padding: '15px',
+                                textDecoration:'none',
+                                width: 200, 
+                                border: '1px solid #009929', 
+                                cursor: 'pointer', 
+                                borderRadius: '8px', 
+                                marginRight: 20 
+                            }}
+                                rel="noreferrer"
+                                target='_blank'                                
+                                href='https://drive.google.com/file/d/1-ooeMtIERUG47Q7kEgoAOCyf3j_ytTme/view?usp=sharingt' offset={-70} spy={true} smooth={true} duration={1000} >
+                                Requisitos
+                            </a>
+                            <a style={{ 
+                                background: '#009929', 
+                                textAlign: 'center', 
+                                color: '#fff', 
+                                fontWeight: 'bold', 
+                                marginTop: 30, 
+                                padding: '15px', 
+                                textDecoration:'none',
+                                width: 200, 
+                                border: '1px solid #009929', 
+                                cursor: 'pointer', 
+                                borderRadius: '8px' 
+                            }}
+                                rel="noreferrer"
+                                target='_blank'
+                                href='https://forms.gle/DC2PZLP2kohMVYYD7' offset={-70} spy={true} smooth={true} duration={1000} >
+                                Inscripción
+                            </a>
                         </div>
                     </Col>
                 </Row>

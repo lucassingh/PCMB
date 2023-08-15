@@ -2,7 +2,6 @@ import React from 'react';
 import { Col, Row, Image } from 'react-bootstrap';
 import img from '../assets/img-2.jpg'
 import '../styles/offer.scss'
-import { Link } from 'react-scroll';
 
 const Offer = () => {
     return (
@@ -17,9 +16,24 @@ const Offer = () => {
                         <span>
                             Si ya estas decidido a realizar el curso, no dudes en inscribirte, podes llenar el formulario online aqui.
                         </span>
-                        <button style={{ background: '#009929', color: '#fff', fontWeight: 'bold', marginTop: 30, padding: '15px', width: 200, border: '1px solid #009929', cursor: 'pointer', borderRadius: '8px' }}>
-                            <Link to='contact' spy={true} smooth={true} duration={1000} >Inscribirse</Link>
-                        </button>
+                        <a style={{ 
+                            background: '#009929',
+                            textAlign: 'center',
+                            color: '#fff', 
+                            fontWeight: 'bold',
+                            marginTop: 30,
+                            padding: '15px',
+                            width: 200,
+                            textDecoration:'none',
+                            border: '1px solid #009929',
+                            cursor: 'pointer',
+                            borderRadius: '8px' 
+                        }}
+                            rel="noreferrer"
+                            target='_blank'
+                            href='https://forms.gle/sJZYRdkx8aauh13C6' offset={-70} spy={true} smooth={true} duration={1000} >
+                            Inscribirse
+                        </a>
                     </Col>
                 </Row>
             </div>
