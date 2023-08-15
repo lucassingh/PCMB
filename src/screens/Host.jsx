@@ -20,7 +20,7 @@ const Host = () => {
                         <span className='text'>
                             {t('host.text')}
                         </span>
-                        <div className='d-flex'>
+                        <div className='d-flex flex-column'>
                             <a style={{ 
                                 background: '#fff', 
                                 textAlign: 'center', 
@@ -29,7 +29,7 @@ const Host = () => {
                                 marginTop: 30, 
                                 padding: '15px',
                                 textDecoration:'none',
-                                width: 200, 
+                                width: 300, 
                                 border: '1px solid #009929', 
                                 cursor: 'pointer', 
                                 borderRadius: '8px', 
@@ -48,7 +48,7 @@ const Host = () => {
                                 marginTop: 30, 
                                 padding: '15px', 
                                 textDecoration:'none',
-                                width: 200, 
+                                width: 300, 
                                 border: '1px solid #009929', 
                                 cursor: 'pointer', 
                                 borderRadius: '8px' 

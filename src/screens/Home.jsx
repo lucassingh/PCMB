@@ -28,11 +28,13 @@ const Home = () => {
                         </BrowserView>
 
                         <MobileView>
-                            <span className='subtitle-regular'>{t('hero.title')}</span>
-                            <Link style={{ background: '#009929', color: '#fff', textAlign: 'center', fontWeight: 'bold', marginTop: 30, padding: '15px', width: 200, border: '1px solid #009929', cursor: 'pointer', borderRadius: '8px' }}
-                                to='what' offset={-70} spy={true} smooth={true} duration={1000} >
-                                Ver Más
-                            </Link>
+                            <div className='d-flex flex-column'>
+                                <span className='subtitle-regular'>{t('hero.title')}</span>
+                                <Link style={{ background: '#009929', color: '#fff', textAlign: 'center', fontWeight: 'bold', marginTop: 30, padding: '15px', width: 200, border: '1px solid #009929', cursor: 'pointer', borderRadius: '8px' }}
+                                    to='what' offset={-70} spy={true} smooth={true} duration={1000} >
+                                    Ver Más
+                                </Link>
+                            </div>
                         </MobileView>
                     </Col>
                 </Row>
