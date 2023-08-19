@@ -66,7 +66,7 @@ const Navbar = () => {
                             )
                         } */}
                         <button style={{ background: '#009929', color: '#fff', fontWeight: 'bold', padding: '8px', border: '1px solid #009929', cursor: 'pointer', borderRadius: '8px' }}>
-                            <Link to='contact' spy={true} smooth={true} duration={1000} >Contacto</Link>
+                            <Link to='offer' offset={-70} spy={true} smooth={true} duration={1000} >Inscribirse</Link>
                         </button>
                     </div>
                     <div className='mobile' style={{ marginLeft: 15 }}>
