@@ -37,7 +37,7 @@ const Host = () => {
                             }}
                                 rel="noreferrer"
                                 target='_blank'                                
-                                href='https://drive.google.com/file/d/1-ooeMtIERUG47Q7kEgoAOCyf3j_ytTme/view?usp=sharingt' offset={-70} spy={true} smooth={true} duration={1000} >
+                                href='https://drive.google.com/file/d/1piwu2QhaZ_uE6yGG-N269Ql7057tR5nc/view?usp=sharing' offset={-70} spy={true} smooth={true} duration={1000} >
                                 Requisitos
                             </a>
                             <a style={{ 
@@ -55,7 +55,7 @@ const Host = () => {
                             }}
                                 rel="noreferrer"
                                 target='_blank'
-                                href='https://forms.gle/DC2PZLP2kohMVYYD7' offset={-70} spy={true} smooth={true} duration={1000} >
+                                href='https://forms.gle/wkjfMcahfuyoHf5f8' offset={-70} spy={true} smooth={true} duration={1000} >
                                 Inscripción
                             </a>
                         </div>

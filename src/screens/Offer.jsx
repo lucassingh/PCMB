@@ -32,7 +32,7 @@ const Offer = () => {
                             }}
                                 rel="noreferrer"
                                 target='_blank'
-                                href='https://forms.gle/sJZYRdkx8aauh13C6' offset={-70} spy={true} smooth={true} duration={1000} >
+                                href='https://forms.gle/Xci2fM4EKLRoJMZYA' offset={-70} spy={true} smooth={true} duration={1000} >
                                 Inscribirse
                             </a>
                         </div>
