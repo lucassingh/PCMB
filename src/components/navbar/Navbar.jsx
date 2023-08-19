@@ -25,11 +25,11 @@ const Navbar = () => {
                     </Link>
                     <div>
                         <nav className={`${styles.nav} ${menuOpen ? styles[`nav--open`] : {}}`}>
-                            {/* <Link className={styles.nav__item}
+                            <Link className={styles.nav__item}
                                 to="inicio" spy={true} smooth={true} duration={500}
                             >
                                 {t('header.link1')}
-                            </Link> */}
+                            </Link>
                             <Link className={styles.nav__item}
                                 to="history" spy={true} smooth={true} duration={500} offset={-70}
                             >
@@ -49,11 +49,6 @@ const Navbar = () => {
                                 to="host" spy={true} smooth={true} duration={500} offset={-70}
                             >
                                 {t('header.link5')}
-                            </Link>
-                            <Link className={styles.nav__item}
-                                to="offer" spy={true} smooth={true} duration={500} offset={-70}
-                            >
-                                {t('header.link6')}
                             </Link>
                         </nav>
                     </div>
