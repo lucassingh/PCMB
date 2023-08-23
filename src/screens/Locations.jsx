@@ -45,11 +45,15 @@ const Locations = () => {
                                 <Tabs forceRenderTabPanel>
                                     <TabList>
                                         <Tab>Rosario</Tab>
+                                        <Tab>Venado Tuerto</Tab>
                                         <Tab>Gálvez</Tab>
                                         <Tab>V. Constitución</Tab>
                                     </TabList>
                                     <TabPanel>
                                         <AddressLocation telefono="+54 9 341 357 2897" />
+                                    </TabPanel>
+                                    <TabPanel>
+                                        <AddressLocation telefono="+54 9 3462 305363" />
                                     </TabPanel>
                                     <TabPanel>
                                         <AddressLocation telefono="+54 9 3404 45 9741" />
