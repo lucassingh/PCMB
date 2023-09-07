@@ -13,6 +13,7 @@ import Locations from './screens/Locations';
 import Offer from './screens/Offer';
 import Prefooter from './components/footer/Prefooter';
 import Footer from './components/footer/Footer';
+import News from './screens/News';
 
 function App() {
     return (
@@ -30,6 +31,7 @@ function App() {
             <Items />
             <Locations />
             <Offer />
+            <News />
             <Prefooter /> 
             <Footer />
         </>

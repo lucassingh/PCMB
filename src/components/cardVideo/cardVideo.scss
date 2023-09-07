@@ -1,0 +1,14 @@
+@import '../../styles/variables.scss';
+
+.subtitle-news {
+    font-size: 18px;
+    font-weight: bolder;
+    color: $secondary-color;
+}
+.card-text {
+    font-size: 14px;
+}
+.button {
+    background-color: $secondary-color;
+    border-color: $secondary-color;
+}
